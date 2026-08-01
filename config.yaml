@@ -6,292 +6,84 @@ teams:
       - SeanBohan
       - jwagantall
       - LF-Europe
+
   - name: security-managers
     maintainers:
       - jwagantall
       - ryjones
-  - name: iam-internal-committers
-    maintainers:
-      - maheshika
-    members:
-      - AnuradhaSK
-      - BimsaraBodaragama
-      - DilshanSenarath
-      - DonOmalVindula
-      - JayaShakthi97
-      - JeethJJ
-      - KD23243
-      - KaveeshaPiumini
-      - Lakshan-Banneheke
-      - Malith-19
-      - Miranlfk
-      - NilukaSripalim
-      - NipuniBhagya
-      - RushanNanayakkara
-      - SujanSanjula96
-      - ThaminduDilshan
-      - ThaminduR
-      - Thisara-Welmilla
-      - Thumimku
-      - ThumulaPerera
-      - UdeshAthukorala
-      - ayeshajay
-      - ayshsandu
-      - bhagyasakalanka
-      - brionmario
-      - darshanasbg
-      - deshankoswatte
-      - hwupathum
-      - indeewari
-      - isharak
-      - janakamarasena
-      - jeradrutnam
-      - lashinijay
-      - madurangasiriwardena
-      - omindu
-      - pavinduLakshan
-      - piraveena
-      - rajithacharith
-      - rksk
-      - sadilchamishka
-      - sagara-gunathunga
-      - sahandilshan
-      - savindi7
-      - senthalan
-      - thiva-k
-      - uthaiyashankar
-  - name: iam-readonly
-    maintainers:
-      - maheshika
-    members:
-      - BimsaraBodaragama
-      - DilshanSenarath
-      - Dilusha-Madushan
-      - DonOmalVindula
-      - ImalshaD
-      - JeethJJ
-      - KD23243
-      - KaveeshaPiumini
-      - Lakshan-Banneheke
-      - Malith-19
-      - Manchiz
-      - NutharaNR
-      - Osara-B
-      - Pratheesha97
-      - SachithUd
-      - SujanSanjula96
-      - ThaminduR
-      - ThumulaPerera
-      - UdeshAthukorala
-      - VIHANGAGIT
-      - ayeshajay
-      - deshankoswatte
-      - himeshsiriwardana
-      - hwupathum
-      - indeewari
-      - isuruirj
-      - jcgarciaa
-      - lashinijay
-      - mifrazmurthaja
-      - pabasara-mahindapala
-      - pavinduLakshan
-      - sadilchamishka
-      - sahandilshan
-      - savindi7
-      - thiva-k
-  - name: iam-techcontent-team
-    maintainers:
-      - maheshika
-    members:
-      - himeshsiriwardana
+
   - name: owners
     maintainers:
       - chamarat-wso2
       - git-repo-creation-app
       - maheshika
       - ryjones
-    members: []
-  - name: security-internal-committers
+
+  - name: core-maintainers
     maintainers:
       - maheshika
     members:
-      - ayomawdb
+      - darshanasbg
+      - isharak
+      - omindu
+      - senthalan
+
+  - name: area-maintainers
+    maintainers:
+      - maheshika
+    members:
+      - anushasunkada
+      - brionmario
+      - rajithacharith
+      - jeradrutnam
+      - DonOmalVindula
+      - KaveeshaPiumini
+      - sahandilshan
+      - ThaminduDilshan
+      - thiva-k
+      - ThumulaPerera
+
+  - name: doc-maintainers
+    maintainers:
+      - maheshika
+    members:
+      - himeshsiriwardana
+      - sagara-gunathunga
+
+  - name: contributors
+    maintainers:
+      - maheshika
+    members:
+      - AnuradhaSK
+      - JayaShakthi97
+      - Malith-19
+      - NipuniBhagya
+      - Thumimku
+      - UdeshAthukorala
+      - ayeshajay
+      - ayshsandu
+      - hwupathum
+      - indeewari
+      - madurangasiriwardena
+      - piraveena
+      - NutharaNR
+      - sadilchamishka
+      - ImalshaD
+      - ZiyamSanthosh
+      - PasinduYeshan
+
   - name: thunder-automation-bot
     maintainers:
       - maheshika
     members:
       - thunder-automation-bot
-  - name: wso2-all
-    maintainers:
-      - maheshika
-    members:
-      - AnuradhaSK
-      - BimsaraBodaragama
-      - DilshanSenarath
-      - Dilusha-Madushan
-      - DonOmalVindula
-      - ImalshaD
-      - JayaShakthi97
-      - JeethJJ
-      - KD23243
-      - KaveeshaPiumini
-      - Lakshan-Banneheke
-      - Malith-19
-      - ManadaHerath
-      - Manchiz
-      - Miranlfk
-      - NilukaSripalim
-      - NipuniBhagya
-      - NutharaNR
-      - Osara-B
-      - PasanMadhuranga
-      - Pratheesha97
-      - RushanNanayakkara
-      - SachithUd
-      - Sadeesha-Sath
-      - SujanSanjula96
-      - ThaminduDilshan
-      - ThaminduR
-      - Thisara-Welmilla
-      - Thumimku
-      - ThumulaPerera
-      - UdeshAthukorala
-      - VIHANGAGIT
-      - ayeshajay
-      - ayomawdb
-      - ayshsandu
-      - bhagyasakalanka
-      - binal-wso2
-      - brionmario
-      - darshanasbg
-      - deshankoswatte
-      - himeshsiriwardana
-      - hwupathum
-      - indeewari
-      - isharak
-      - isuruirj
-      - janakamarasena
-      - jcgarciaa
-      - jeradrutnam
-      - lashinijay
-      - madurangasiriwardena
-      - mifrazmurthaja
-      - omindu
-      - pabasara-mahindapala
-      - pavinduLakshan
-      - piraveena
-      - rajithacharith
-      - rksk
-      - sadilchamishka
-      - sagara-gunathunga
-      - sahandilshan
-      - savindi7
-      - senthalan
-      - thiva-k
-      - uthaiyashankar
-  - name: wso2-all-interns
-    maintainers:
-      - maheshika
-    members: []
+
   - name: wso2-digital-statistics-bot
     maintainers:
       - maheshika
     members:
       - wso2-digital-statistics-bot
-  - name: wso2-internal-committers
-    maintainers:
-      - maheshika
-    members:
-      - AnuradhaSK
-      - BimsaraBodaragama
-      - DilshanSenarath
-      - DonOmalVindula
-      - JayaShakthi97
-      - JeethJJ
-      - KD23243
-      - KaveeshaPiumini
-      - Lakshan-Banneheke
-      - Malith-19
-      - Miranlfk
-      - NilukaSripalim
-      - NipuniBhagya
-      - RushanNanayakkara
-      - SujanSanjula96
-      - ThaminduDilshan
-      - ThaminduR
-      - Thisara-Welmilla
-      - Thumimku
-      - ThumulaPerera
-      - UdeshAthukorala
-      - ayeshajay
-      - ayomawdb
-      - ayshsandu
-      - bhagyasakalanka
-      - brionmario
-      - darshanasbg
-      - deshankoswatte
-      - hwupathum
-      - indeewari
-      - isharak
-      - janakamarasena
-      - jeradrutnam
-      - lashinijay
-      - madurangasiriwardena
-      - omindu
-      - pavinduLakshan
-      - piraveena
-      - rajithacharith
-      - rksk
-      - sadilchamishka
-      - sagara-gunathunga
-      - sahandilshan
-      - savindi7
-      - senthalan
-      - thiva-k
-      - uthaiyashankar
-  - name: wso2-readonly
-    maintainers:
-      - maheshika
-    members:
-      - BimsaraBodaragama
-      - DilshanSenarath
-      - Dilusha-Madushan
-      - DonOmalVindula
-      - ImalshaD
-      - JeethJJ
-      - KD23243
-      - KaveeshaPiumini
-      - Lakshan-Banneheke
-      - Malith-19
-      - ManadaHerath
-      - Manchiz
-      - NutharaNR
-      - Osara-B
-      - PasanMadhuranga
-      - Pratheesha97
-      - SachithUd
-      - Sadeesha-Sath
-      - SujanSanjula96
-      - ThaminduR
-      - ThumulaPerera
-      - UdeshAthukorala
-      - VIHANGAGIT
-      - ayeshajay
-      - binal-wso2
-      - deshankoswatte
-      - himeshsiriwardana
-      - hwupathum
-      - indeewari
-      - isuruirj
-      - jcgarciaa
-      - lashinijay
-      - mifrazmurthaja
-      - pabasara-mahindapala
-      - pavinduLakshan
-      - sadilchamishka
-      - sahandilshan
-      - savindi7
-      - thiva-k
+
 repositories:
   - name: governance
     teams:
@@ -299,57 +91,62 @@ repositories:
     visibility: public
   - name: .github
     teams:
-      iam-internal-committers: write
-      iam-readonly: triage
-      wso2-all: triage
-      wso2-all-interns: triage
+      owners: admin
+      core-maintainers: write
+      area-maintainers: write
+      doc-maintainers: write
     visibility: public
   - name: android-sdks
     teams:
-      iam-internal-committers: write
       owners: admin
+      core-maintainers: write
+      area-maintainers: write
+      doc-maintainers: write
+      contributors: triage
       thunder-automation-bot: admin
-      wso2-all: triage
-      wso2-all-interns: triage
     visibility: public
   - name: flutter-sdks
     teams:
-      iam-internal-committers: write
       owners: admin
+      core-maintainers: write
+      area-maintainers: write
+      doc-maintainers: write
+      contributors: triage
       thunder-automation-bot: admin
-      wso2-all: triage
-      wso2-all-interns: triage
-    visibility: public
-  - name: governance
     visibility: public
   - name: ios-sdks
     teams:
-      iam-internal-committers: write
       owners: admin
+      core-maintainers: write
+      area-maintainers: write
+      doc-maintainers: write
+      contributors: triage
       thunder-automation-bot: admin
-      wso2-all: triage
-      wso2-all-interns: triage
     visibility: public
   - name: javascript-sdks
     teams:
-      iam-internal-committers: write
       owners: admin
+      core-maintainers: write
+      area-maintainers: write
+      doc-maintainers: write
+      contributors: triage
       thunder-automation-bot: admin
-      wso2-all: triage
-      wso2-all-interns: triage
     visibility: public
   - name: skills
     teams:
-      iam-internal-committers: write
       owners: admin
-      wso2-all: triage
-      wso2-all-interns: triage
+      core-maintainers: write
+      area-maintainers: write
+      doc-maintainers: write
+      contributors: triage
     visibility: public
   - name: thunderid
     teams:
-      iam-internal-committers: write
-      iam-readonly: read
-      iam-techcontent-team: write
+      owners: admin
+      core-maintainers: write
+      area-maintainers: write
+      doc-maintainers: write
+      contributors: triage
       thunder-automation-bot: admin
       wso2-digital-statistics-bot: write
     visibility: public
