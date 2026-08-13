@@ -71,6 +71,7 @@ teams:
       - ImalshaD
       - ZiyamSanthosh
       - PasinduYeshan
+      - shashimalcse
 
   - name: thunder-automation-bot
     maintainers:
@@ -139,6 +140,7 @@ repositories:
       area-maintainers: write
       doc-maintainers: write
       contributors: triage
+      thunder-automation-bot: admin
     visibility: public
   - name: thunderid
     teams:
