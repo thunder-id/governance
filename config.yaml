@@ -1,23 +1,41 @@
 teams:
-  - name: lf-staff
+  - name: area-maintainers
     maintainers:
-      - ryjones
-    members:
-      - SeanBohan
-      - jwagantall
-      - LF-Europe
-
-  - name: security-managers
-    maintainers:
-      - jwagantall
-      - ryjones
-
-  - name: owners
-    maintainers:
-      - chamarat-wso2
-      - git-repo-creation-app
       - maheshika
-      - ryjones
+    members:
+      - AnuradhaSK
+      - anushasunkada
+      - ayshsandu
+      - brionmario
+      - DonOmalVindula
+      - jeradrutnam
+      - KaveeshaPiumini
+      - madurangasiriwardena
+      - rajithacharith
+      - sahandilshan
+      - ThaminduDilshan
+      - thiva-k
+      - ThumulaPerera
+
+  - name: contributors
+    maintainers:
+      - maheshika
+    members:
+      - ayeshajay
+      - hwupathum
+      - ImalshaD
+      - indeewari
+      - JayaShakthi97
+      - Malith-19
+      - NipuniBhagya
+      - NutharaNR
+      - PasinduYeshan
+      - piraveena
+      - sadilchamishka
+      - shashimalcse
+      - Thumimku
+      - UdeshAthukorala
+      - ZiyamSanthosh
 
   - name: core-maintainers
     maintainers:
@@ -28,24 +46,6 @@ teams:
       - omindu
       - senthalan
 
-  - name: area-maintainers
-    maintainers:
-      - maheshika
-    members:
-      - AnuradhaSK
-      - anushasunkada
-      - ayshsandu
-      - brionmario
-      - rajithacharith
-      - jeradrutnam
-      - DonOmalVindula
-      - KaveeshaPiumini
-      - madurangasiriwardena
-      - sahandilshan
-      - ThaminduDilshan
-      - thiva-k
-      - ThumulaPerera
-
   - name: doc-maintainers
     maintainers:
       - maheshika
@@ -53,25 +53,25 @@ teams:
       - himeshsiriwardana
       - sagara-gunathunga
 
-  - name: contributors
+  - name: lf-staff
     maintainers:
-      - maheshika
+      - ryjones
     members:
-      - JayaShakthi97
-      - Malith-19
-      - NipuniBhagya
-      - Thumimku
-      - UdeshAthukorala
-      - ayeshajay
-      - hwupathum
-      - indeewari
-      - piraveena
-      - NutharaNR
-      - sadilchamishka
-      - ImalshaD
-      - ZiyamSanthosh
-      - PasinduYeshan
-      - shashimalcse
+      - jwagantall
+      - LF-Europe
+      - SeanBohan
+
+  - name: owners
+    maintainers:
+      - chamarat-wso2
+      - git-repo-creation-app
+      - maheshika
+      - ryjones
+
+  - name: security-managers
+    maintainers:
+      - jwagantall
+      - ryjones
 
   - name: thunder-automation-bot
     maintainers:
@@ -86,69 +86,70 @@ teams:
       - wso2-digital-statistics-bot
 
 repositories:
-  - name: governance
-    teams:
-      lf-staff: admin
-    visibility: public
   - name: .github
     teams:
-      owners: admin
-      core-maintainers: write
       area-maintainers: write
+      core-maintainers: write
       doc-maintainers: write
+      owners: admin
     visibility: public
   - name: android-sdks
     teams:
-      owners: admin
-      core-maintainers: write
       area-maintainers: write
-      doc-maintainers: write
       contributors: triage
+      core-maintainers: write
+      doc-maintainers: write
+      owners: admin
       thunder-automation-bot: admin
     visibility: public
   - name: flutter-sdks
     teams:
-      owners: admin
-      core-maintainers: write
       area-maintainers: write
-      doc-maintainers: write
       contributors: triage
+      core-maintainers: write
+      doc-maintainers: write
+      owners: admin
       thunder-automation-bot: admin
+    visibility: public
+  - name: governance
+    teams:
+      core-maintainers: maintain
+      lf-staff: admin
     visibility: public
   - name: ios-sdks
     teams:
-      owners: admin
-      core-maintainers: write
       area-maintainers: write
-      doc-maintainers: write
       contributors: triage
+      core-maintainers: write
+      doc-maintainers: write
+      owners: admin
       thunder-automation-bot: admin
     visibility: public
   - name: javascript-sdks
     teams:
-      owners: admin
-      core-maintainers: write
       area-maintainers: write
-      doc-maintainers: write
       contributors: triage
+      core-maintainers: write
+      doc-maintainers: write
+      owners: admin
       thunder-automation-bot: admin
     visibility: public
   - name: skills
     teams:
-      owners: admin
-      core-maintainers: write
       area-maintainers: write
-      doc-maintainers: write
       contributors: triage
+      core-maintainers: write
+      doc-maintainers: write
+      owners: admin
       thunder-automation-bot: admin
     visibility: public
   - name: thunderid
     teams:
-      owners: admin
-      core-maintainers: write
       area-maintainers: write
-      doc-maintainers: write
       contributors: triage
+      core-maintainers: write
+      doc-maintainers: write
+      owners: admin
       thunder-automation-bot: admin
       wso2-digital-statistics-bot: write
     visibility: public
