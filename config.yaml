@@ -1,5 +1,5 @@
 teams:
-  - name: area-maintainers
+  - name: area-committers
     maintainers:
       - maheshika
     members:
@@ -46,7 +46,7 @@ teams:
       - omindu
       - senthalan
 
-  - name: doc-maintainers
+  - name: doc-committers
     maintainers:
       - maheshika
     members:
@@ -92,26 +92,26 @@ teams:
 repositories:
   - name: .github
     teams:
-      area-maintainers: write
+      area-committers: write
       core-maintainers: maintain
-      doc-maintainers: write
+      doc-committers: write
       owners: admin
     visibility: public
   - name: android-sdks
     teams:
-      area-maintainers: write
+      area-committers: write
       contributors: triage
       core-maintainers: maintain
-      doc-maintainers: write
+      doc-committers: write
       owners: admin
       thunder-automation-bot: admin
     visibility: public
   - name: flutter-sdks
     teams:
-      area-maintainers: write
+      area-committers: write
       contributors: triage
       core-maintainers: maintain
-      doc-maintainers: write
+      doc-committers: write
       owners: admin
       thunder-automation-bot: admin
     visibility: public
@@ -122,37 +122,37 @@ repositories:
     visibility: public
   - name: ios-sdks
     teams:
-      area-maintainers: write
+      area-committers: write
       contributors: triage
       core-maintainers: maintain
-      doc-maintainers: write
+      doc-committers: write
       owners: admin
       thunder-automation-bot: admin
     visibility: public
   - name: javascript-sdks
     teams:
-      area-maintainers: write
+      area-committers: write
       contributors: triage
       core-maintainers: maintain
-      doc-maintainers: write
+      doc-committers: write
       owners: admin
       thunder-automation-bot: admin
     visibility: public
   - name: skills
     teams:
-      area-maintainers: write
+      area-committers: write
       contributors: triage
       core-maintainers: maintain
-      doc-maintainers: write
+      doc-committers: write
       owners: admin
       thunder-automation-bot: admin
     visibility: public
   - name: thunderid
     teams:
-      area-maintainers: write
+      area-committers: write
       contributors: triage
       core-maintainers: maintain
-      doc-maintainers: write
+      doc-committers: write
       owners: admin
       thunder-automation-bot: admin
       wso2-digital-statistics-bot: write
