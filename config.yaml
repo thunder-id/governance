@@ -70,8 +70,12 @@ teams:
 
   - name: security-managers
     maintainers:
+      - darshanasbg
+      - isharak
       - jwagantall
+      - omindu
       - ryjones
+      - senthalan
 
   - name: thunder-automation-bot
     maintainers:
@@ -88,14 +92,14 @@ teams:
 repositories:
   - name: .github
     teams:
-      area-maintainers: write
+      area-maintainers: maintain
       core-maintainers: write
       doc-maintainers: write
       owners: admin
     visibility: public
   - name: android-sdks
     teams:
-      area-maintainers: write
+      area-maintainers: maintain
       contributors: triage
       core-maintainers: write
       doc-maintainers: write
@@ -104,7 +108,7 @@ repositories:
     visibility: public
   - name: flutter-sdks
     teams:
-      area-maintainers: write
+      area-maintainers: maintain
       contributors: triage
       core-maintainers: write
       doc-maintainers: write
@@ -118,7 +122,7 @@ repositories:
     visibility: public
   - name: ios-sdks
     teams:
-      area-maintainers: write
+      area-maintainers: maintain
       contributors: triage
       core-maintainers: write
       doc-maintainers: write
@@ -127,7 +131,7 @@ repositories:
     visibility: public
   - name: javascript-sdks
     teams:
-      area-maintainers: write
+      area-maintainers: maintain
       contributors: triage
       core-maintainers: write
       doc-maintainers: write
@@ -136,7 +140,7 @@ repositories:
     visibility: public
   - name: skills
     teams:
-      area-maintainers: write
+      area-maintainers: maintain
       contributors: triage
       core-maintainers: write
       doc-maintainers: write
@@ -145,7 +149,7 @@ repositories:
     visibility: public
   - name: thunderid
     teams:
-      area-maintainers: write
+      area-maintainers: maintain
       contributors: triage
       core-maintainers: write
       doc-maintainers: write
