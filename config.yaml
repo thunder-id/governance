@@ -92,25 +92,25 @@ teams:
 repositories:
   - name: .github
     teams:
-      area-maintainers: maintain
-      core-maintainers: write
+      area-maintainers: write
+      core-maintainers: maintain
       doc-maintainers: write
       owners: admin
     visibility: public
   - name: android-sdks
     teams:
-      area-maintainers: maintain
+      area-maintainers: write
       contributors: triage
-      core-maintainers: write
+      core-maintainers: maintain
       doc-maintainers: write
       owners: admin
       thunder-automation-bot: admin
     visibility: public
   - name: flutter-sdks
     teams:
-      area-maintainers: maintain
+      area-maintainers: write
       contributors: triage
-      core-maintainers: write
+      core-maintainers: maintain
       doc-maintainers: write
       owners: admin
       thunder-automation-bot: admin
@@ -122,36 +122,36 @@ repositories:
     visibility: public
   - name: ios-sdks
     teams:
-      area-maintainers: maintain
+      area-maintainers: write
       contributors: triage
-      core-maintainers: write
+      core-maintainers: maintain
       doc-maintainers: write
       owners: admin
       thunder-automation-bot: admin
     visibility: public
   - name: javascript-sdks
     teams:
-      area-maintainers: maintain
+      area-maintainers: write
       contributors: triage
-      core-maintainers: write
+      core-maintainers: maintain
       doc-maintainers: write
       owners: admin
       thunder-automation-bot: admin
     visibility: public
   - name: skills
     teams:
-      area-maintainers: maintain
+      area-maintainers: write
       contributors: triage
-      core-maintainers: write
+      core-maintainers: maintain
       doc-maintainers: write
       owners: admin
       thunder-automation-bot: admin
     visibility: public
   - name: thunderid
     teams:
-      area-maintainers: maintain
+      area-maintainers: write
       contributors: triage
-      core-maintainers: write
+      core-maintainers: maintain
       doc-maintainers: write
       owners: admin
       thunder-automation-bot: admin
