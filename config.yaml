@@ -137,6 +137,15 @@ repositories:
       owners: admin
       thunder-automation-bot: admin
     visibility: public
+  - name: samples
+    teams:
+      area-committers: write
+      contributors: triage
+      core-maintainers: maintain
+      doc-committers: write
+      owners: admin
+      thunder-automation-bot: admin
+    visibility: public
   - name: skills
     teams:
       area-committers: write
