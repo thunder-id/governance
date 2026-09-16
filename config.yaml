@@ -95,6 +95,7 @@ repositories:
       core-maintainers: maintain
       doc-committers: write
       owners: admin
+      security-managers: read
     visibility: public
   - name: android-sdks
     teams:
@@ -103,6 +104,7 @@ repositories:
       core-maintainers: maintain
       doc-committers: write
       owners: admin
+      security-managers: read
       thunder-automation-bot: admin
     visibility: public
   - name: flutter-sdks
@@ -112,12 +114,15 @@ repositories:
       core-maintainers: maintain
       doc-committers: write
       owners: admin
+      security-managers: read
       thunder-automation-bot: admin
     visibility: public
   - name: governance
     teams:
       core-maintainers: maintain
       lf-staff: admin
+      owners: maintain
+      security-managers: read
     visibility: public
   - name: ios-sdks
     teams:
@@ -126,6 +131,7 @@ repositories:
       core-maintainers: maintain
       doc-committers: write
       owners: admin
+      security-managers: read
       thunder-automation-bot: admin
     visibility: public
   - name: javascript-sdks
@@ -135,6 +141,7 @@ repositories:
       core-maintainers: maintain
       doc-committers: write
       owners: admin
+      security-managers: read
       thunder-automation-bot: admin
     visibility: public
   - name: samples
@@ -144,6 +151,7 @@ repositories:
       core-maintainers: maintain
       doc-committers: write
       owners: admin
+      security-managers: read
       thunder-automation-bot: admin
     visibility: public
   - name: skills
@@ -153,6 +161,7 @@ repositories:
       core-maintainers: maintain
       doc-committers: write
       owners: admin
+      security-managers: read
       thunder-automation-bot: admin
     visibility: public
   - name: thunderid
@@ -162,6 +171,7 @@ repositories:
       core-maintainers: maintain
       doc-committers: write
       owners: admin
+      security-managers: read
       thunder-automation-bot: admin
       wso2-digital-statistics-bot: write
     visibility: public
