@@ -107,6 +107,16 @@ repositories:
       security-managers: read
       thunder-automation-bot: admin
     visibility: public
+  - name: community-dev
+    teams:
+      area-committers: write
+      contributors: triage
+      core-maintainers: maintain
+      doc-committers: write
+      owners: admin
+      security-managers: read
+      thunder-automation-bot: admin
+    visibility: public
   - name: flutter-sdks
     teams:
       area-committers: write
