@@ -154,6 +154,16 @@ repositories:
       security-managers: read
       thunder-automation-bot: admin
     visibility: public
+  - name: python-sdks
+    teams:
+      area-committers: write
+      contributors: triage
+      core-maintainers: maintain
+      doc-committers: write
+      owners: admin
+      security-managers: read
+      thunder-automation-bot: admin
+    visibility: public
   - name: samples
     teams:
       area-committers: write
